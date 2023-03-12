@@ -26,11 +26,13 @@
             colors: {
               btn_bg: "#289BDE",
               banner_bg: "#FFFBF0",
+              font_color: "#777777",
             },
           },
         },
       };
     </script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="container mx-auto mt-4">
@@ -120,7 +122,9 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <button class="btn btn-outline hover:bg-btn_bg hover:border-btn_bg">
+          <button
+            class="btn btn-outline border-btn_bg text-btn_bg hover:bg-btn_bg hover:border-btn_bg"
+          >
             Register
           </button>
         </div>
@@ -407,7 +411,254 @@
             </p>
           </div>
           <div>
-            <button class="btn btn-ghost bg-white">Register Now</button>
+            <button
+              class="btn btn-ghost hover:bg-white hover:text-btn_bg bg-white"
+            >
+              Register Now
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- ready to join section ends  -->
+      <!-- students area starts  -->
+      <section class="my-8">
+        <div>
+          <!-- students top area  -->
+          <div class="w-1/2">
+            <h1 class="font-semibold text-5xl">
+              Meet Our Successfull Students
+            </h1>
+            <p class="font-normal text-lg mt-5 text-font_color">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+          </div>
+          <!-- students bottom area  -->
+          <div class="grid lg:grid-cols-4 my-12 gap-6">
+            <!-- single students  -->
+            <div class="card rounded-sm bg-base-100 shadow-sm border">
+              <figure>
+                <img src="./images/student/student-1.png" alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Awlad Hossain</h2>
+                <p class="font-normal text-font_color text-sm">
+                  UI/UX Designer
+                </p>
+              </div>
+            </div>
+            <div class="card rounded-sm bg-base-100 shadow-sm border">
+              <figure>
+                <img src="./images/student/student-2.png" alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Jannatul Islam</h2>
+                <p class="font-normal text-font_color text-sm">Motion Design</p>
+              </div>
+            </div>
+            <div class="card rounded-sm bg-base-100 shadow-sm border">
+              <figure>
+                <img src="./images/student/student-3.png" alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Imran Hossain</h2>
+                <p class="font-normal text-font_color text-sm">
+                  Graphic Designer
+                </p>
+              </div>
+            </div>
+            <div class="card rounded-sm bg-base-100 shadow-sm border">
+              <figure>
+                <img src="./images/student/student-4.png" alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">Nishi Akter</h2>
+                <p class="font-normal text-font_color text-sm">Web Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button
+              class="px-4 py-3 text-white rounded-lg bg-btn_bg border-none cursor-pointer"
+            >
+              View All
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- students area ends  -->
+      <!-- students feedback starts -->
+      <section>
+        <div class="my-20">
+          <!-- feedback top  -->
+          <div class="flex justify-center my-6">
+            <div class="w-1/2 text-center">
+              <h1 class="font-semibold text-5xl">Some Students Feedback</h1>
+              <p class="font-normal text-lg mt-5 text-font_color">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+            </div>
+          </div>
+          <!-- feedback bottom  -->
+          <div class="grid lg:grid-cols-2 gap-6 mt-11">
+            <!-- single feedback -->
+            <div class="border rounded-sm p-9">
+              <div class="flex justify-between items-center">
+                <img src="./images/comma.png" alt="" />
+                <div class="flex gap-2 text-yellow-500">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+
+              <p class="my-5 text-lg text-font_color">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptatum doloribus ut autem adipisci. Perferendis autem, rem
+                maiores ullam enim eius debitis temporibus expedita. Aperiam
+                quisquam alias architecto minima commodi incidunt.
+              </p>
+
+              <div class="flex gap-5 items-center">
+                <div>
+                  <img src="./images/student/student-5.png" alt="" />
+                </div>
+                <div>
+                  <h4 class="font-semibold text-lg">Awlad Hossain</h4>
+                  <p class="text-font_color font-normal text-sm">
+                    UI/UX Designer
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- single feedback -->
+            <div class="border rounded-sm p-9">
+              <div class="flex justify-between items-center">
+                <img src="./images/comma.png" alt="" />
+                <div class="flex gap-2 text-yellow-500">
+                  <i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i
+                  ><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+              </div>
+
+              <p class="my-5 text-lg text-font_color">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptatum doloribus ut autem adipisci. Perferendis autem, rem
+                maiores ullam enim eius debitis temporibus expedita. Aperiam
+                quisquam alias architecto minima commodi incidunt.
+              </p>
+
+              <div class="flex gap-5 items-center">
+                <div>
+                  <img src="./images/student/student-6.png" alt="" />
+                </div>
+                <div>
+                  <h4 class="font-semibold text-lg">Nasima Akter</h4>
+                  <p class="text-font_color font-normal text-sm">
+                    Web Developer
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- single feedback ends -->
+          </div>
+        </div>
+      </section>
+      <!-- frequently ask questions -->
+      <section class="my-6">
+        <div class="mb-14">
+          <!-- top  -->
+          <div class="flex justify-center my-6">
+            <div class="w-1/2 text-center">
+              <h1 class="font-semibold text-5xl">Frequently Ask Questions</h1>
+              <p class="font-normal text-lg mt-5 text-font_color">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+            </div>
+          </div>
+          <!-- bottom  -->
+          <div class="flex justify-center">
+            <div class="w-1/2 mt-6">
+              <div
+                tabindex="0"
+                class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box"
+              >
+                <div class="collapse-title text-xl font-medium">
+                  What other services are you compatible with?
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    There are many variations of passages of available, but the
+                    majority have suffered alteration in some form, by injected
+                    humour, or randomised words which don't look even slightly
+                    believable. If you are going to use a passage of Lorem
+                    Ipsum, you need to be sure there isn't anything embarrassing
+                    hidden in the middle of text. All the generators on the.
+                  </p>
+                </div>
+              </div>
+              <div
+                tabindex="0"
+                class="mt-5 collapse collapse-plus border border-base-300 bg-base-100 rounded-box"
+              >
+                <div class="collapse-title text-xl font-medium">
+                  I have a technical i need resolved, who do i email?
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    There are many variations of passages of available, but the
+                    majority have suffered alteration in some form, by injected
+                    humour, or randomised words which don't look even slightly
+                    believable. If you are going to use a passage of Lorem
+                    Ipsum, you need to be sure there isn't anything embarrassing
+                    hidden in the middle of text. All the generators on the.
+                  </p>
+                </div>
+              </div>
+              <div
+                tabindex="0"
+                class="mt-5 collapse collapse-plus border border-base-300 bg-base-100 rounded-box"
+              >
+                <div class="collapse-title text-xl font-medium">
+                  What other services are you compatible with?
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    There are many variations of passages of available, but the
+                    majority have suffered alteration in some form, by injected
+                    humour, or randomised words which don't look even slightly
+                    believable. If you are going to use a passage of Lorem
+                    Ipsum, you need to be sure there isn't anything embarrassing
+                    hidden in the middle of text. All the generators on the.
+                  </p>
+                </div>
+              </div>
+              <div
+                tabindex="0"
+                class="mt-5 collapse collapse-plus border border-base-300 bg-base-100 rounded-box"
+              >
+                <div class="collapse-title text-xl font-medium">
+                  What other services are you compatible with?
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    There are many variations of passages of available, but the
+                    majority have suffered alteration in some form, by injected
+                    humour, or randomised words which don't look even slightly
+                    believable. If you are going to use a passage of Lorem
+                    Ipsum, you need to be sure there isn't anything embarrassing
+                    hidden in the middle of text. All the generators on the.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
